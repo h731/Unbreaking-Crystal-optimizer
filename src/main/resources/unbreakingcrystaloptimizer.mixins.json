@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.unbreaking.crystal.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+  "PreventDoubleChargeMixin",
+  "PacketBarrierMixin",
+  "ClientPredictionFixMixin",
+  "ItemSwapAnimationMixin",
+  "AnchorInteractionFixMixin",
+  "ExplosionRenderFixMixin"
+  ],
+  "mixins": [
+    "HeldItemRendererMixin",
+    "EndCrystalEntityMixin",
+    "AnchorOptimizerMixin",
+    "ClientConnectionAccessor",
+    "ClientConnectionMixin",
+    "SmartRaycastMixin",
+    "FastInputMixin",
+    "EndCrystalEntityRendererMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
